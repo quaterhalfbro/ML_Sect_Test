@@ -6,7 +6,17 @@ import pandas as pd
 def plt1():
     m = np.random.sample(200)  # 1
     m2 = np.random.normal(size=200)  # 2
-    plt.hist(m2)
+
+    def method_mullera():
+        s = 0
+        while not(0 < s <= 1):
+            x, y = (np.random.sample() - 0.5) * 2, (np.random.sample() - 0.5) * 2
+            s = x**2 + y**2
+        s = (-2 * np.log(s) / s)**0.5
+        return (x * s, y * s)
+
+    m3 = np.array([method_mullera() for i in range(100)]).reshape(200)  # 3
+    plt.hist(m3)
     plt.show()
 
 def plt3():
