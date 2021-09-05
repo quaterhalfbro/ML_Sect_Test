@@ -4,10 +4,9 @@ import numpy as np
 import pandas as pd
 
 def plt1():
-    m = np.random.sample(200) * 100  # 1
-    m2 = np.random.uniform(0, 100, 200)  # 2
-    m3 = np.array(list(map(lambda x: x / 2.1 + np.random.sample() * 6, range(200))))
-    plt.hist(m)
+    m = np.random.sample(200)  # 1
+    m2 = np.random.normal(size=200)  # 2
+    plt.hist(m2)
     plt.show()
 
 def plt3():
@@ -22,4 +21,5 @@ def plt3():
     plt.scatter(cl3_x, cl3_y, c='yellow')
     plt.show()
 
-plt3()
+
+plt1()
