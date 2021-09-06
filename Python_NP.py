@@ -17,7 +17,7 @@ def num1():
 
 def num2():
     def cosine(a, b):
-        return 1 - sum(np.transpose(a * b)) / (sum(np.transpose(a**2)) * sum(b**2))**0.5
+        return 1 - np.sum(a * b, axis=1) / (np.sum(a**2, axis=1) * np.sum(b**2))**0.5
 
     v = np.random.randint(0, 10, 5)
     m = np.random.randint(0, 10, (5, 6))
@@ -28,7 +28,7 @@ def num2():
     print(cos_rasts)
     min_rast_index = np.where(cos_rasts == min(cos_rasts))[0][0]
     print(n_m[min_rast_index])
-    print(cosine(n_m[min_rast_index], v))
+    print(cosine(np.array([n_m[min_rast_index]]), v)[0])
 
 def num3():
     f1, f2 = np.linspace(0, 8, 9), np.linspace(0, 3, 4)

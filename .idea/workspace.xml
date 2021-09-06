@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61544ae0-b6d7-4d23-980b-fe00495d16fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_PLT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_PLT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_NP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_NP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Python_PLT">
+  <component name="RunManager" selected="Python.Python_NP">
     <configuration name="Python_NP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ML_Sect_Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Python_PLT" />
         <item itemvalue="Python.Python_NP" />
+        <item itemvalue="Python.Python_PLT" />
       </list>
     </recent_temporary>
   </component>
